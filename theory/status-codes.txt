@@ -1,0 +1,9 @@
+In REST APIs, we want to be clear about status codes, so that in the client
+we have an easy way of handling it.
+
+The client has to render the user interface based on our response and therefore
+especially error codes are super important, so that the client can just look at the
+status code and render an error or an appropriate interface. 
+
+200 - Success
+201 - Successfuly created a resource.
